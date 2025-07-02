@@ -11,6 +11,10 @@
 
     </bean>
     <bean id="classC" class="org.example.springktautowirexml.fromXml.ClassC">
+        <!-- This is a Kotlin class -->
+
+    </bean>
+    <bean id="classCJava" class="org.example.springktautowirexml.fromXml.ClassCJava">
       <!-- This is a Java class -->
 
     </bean>

@@ -1,5 +1,5 @@
-package org.example.springktautowirexml.fromXml;
+package org.example.springktautowirexml.fromXml
 
 
-public class ClassC {
+class ClassC {
 }
