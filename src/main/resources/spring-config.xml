@@ -3,12 +3,15 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="classA" class="org.example.springktautowirexml.fromXml.ClassA">
+        <!-- This is a Kotlin class -->
 
     </bean>
     <bean id="classB" class="org.example.springktautowirexml.fromXml.ClassB">
+        <!-- This is a Kotlin class -->
 
     </bean>
     <bean id="classC" class="org.example.springktautowirexml.fromXml.ClassC">
+      <!-- This is a Java class -->
 
     </bean>
 </beans>
